@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    background-color: rgb(220,20,60);
+}
+
+.menu {
+    background-color: rgb(220,20,60);
+    display: block;
+    position: fixed;
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+
+.menu li {
+    display: inline-block;
+    margin-right: 7%;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+}
+
+.contacts {
+    width: 100%;
+    /*padding-top: 3.7%;*/
+    height: 480px;
+    background-color: white;
+    color: rgb(220,20,60);
+}
+
+.links {
+    margin-left: 4%;
+    margin-top: 5%;
+    float: left;
+    text-align: center;
+    min-width: 50%;
+}
+
+.links a {
+    text-decoration: none;
+    color: rgb(220,20,60);
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.pic {
+    float: right;
+    right: 0;
+    max-width: 50%;
+    height: 40%;
+}
+
+.projects {
+    background-color: rgb(220,20,60);
+    padding-top: 5%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.project {
+    height: 180px;
+    padding-left: 2%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 260px;
+    color: white;
+}
+
+.project-title {
+    padding-bottom: 10px;
+}
+
+.project-title a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+}
+
+.project-title a:hover {
+    text-decoration: underline;
+}
+
+.project-description {
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+.project-tools {
+    font-style: italic;
+}
